@@ -7010,6 +7010,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "zeth"
+version = "0.1.0"
+dependencies = [
+ "strata-native-zkvm-adapter",
+ "strata-zkvm",
+]
+
+[[package]]
 name = "zkhash"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

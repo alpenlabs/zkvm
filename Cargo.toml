@@ -10,6 +10,7 @@ members = [
 
     # examples
     "examples/fibonacci",
+    "examples/zeth",
 ]
 
 resolver = "2"

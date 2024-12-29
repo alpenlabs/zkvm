@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "guest-risc0-zeth"
+version = "0.1.0"
+
+[workspace]
+
+[dependencies]
+strata-risc0-adapter = { path = "../../../crates/risc0" }
+zeth = { path = "../../../examples/zeth" }

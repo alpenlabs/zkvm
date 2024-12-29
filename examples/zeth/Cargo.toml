@@ -1,0 +1,9 @@
+[package]
+name = "zeth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+strata-zkvm = { path = "../../crates/zkvm" }
+strata-native-zkvm-adapter = { path = "../../crates/native" }
+zeth-core = { git = "https://github.com/risc0/zeth", rev = "11d9ab31d7dd98f1bd8350e94d4e4b694b8b7aba" }
