@@ -1,0 +1,27 @@
+[package]
+edition = "2021"
+name = "strata-openvm-adapter"
+version = "0.1.0"
+
+[dependencies]
+strata-zkvm.workspace = true
+
+bincode.workspace = true
+borsh.workspace = true
+hex.workspace = true
+openvm = { git = "https://github.com/openvm-org/openvm.git", features = [
+    "std",
+] }
+openvm-sdk = { git = "https://github.com/openvm-org/openvm.git" }
+openvm-transpiler = { git = "https://github.com/openvm-org/openvm.git" }
+openvm-stark-sdk = { git = "https://github.com/openvm-org/stark-backend.git", tag = "v0.1.2-alpha", default-features = false }
+
+
+serde.workspace = true
+sha2.workspace = true
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[features]
+default = []
+mock = []
+prover = []

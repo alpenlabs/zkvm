@@ -4,6 +4,7 @@ members = [
     "crates/risc0",
     "crates/sp1",
     "crates/zkvm",
+    "crates/openvm",
 
     # binaries
     "runner",
