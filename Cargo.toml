@@ -8,10 +8,10 @@ members = [
   # binaries
   "runner",
 
-  # examples
-  "examples/fibonacci",
-  "examples/sha2-chain",
-  "examples/schnorr",
+    # examples
+    "examples/fibonacci",
+    "examples/sha2-chain",
+    "examples/schnorr",
 ]
 
 resolver = "2"
@@ -22,6 +22,7 @@ strata-native-zkvm-adapter = { path = "crates/native" }
 
 fibonacci = { path = "examples/fibonacci" }
 sha2-chain = { path = "examples/sha2-chain" }
+schnorr = { path = "examples/schnorr" }
 
 arbitrary = { version = "1.3.2", features = ["derive"] }
 bincode = "1.3"
