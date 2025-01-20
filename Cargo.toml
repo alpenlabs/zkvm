@@ -8,10 +8,10 @@ members = [
   # binaries
   "runner",
 
-    # examples
-    "examples/fibonacci",
-    "examples/sha2-chain",
-    "examples/schnorr",
+  # examples
+  "examples/fibonacci",
+  "examples/schnorr",
+  "examples/sha2-chain",
 ]
 
 resolver = "2"
